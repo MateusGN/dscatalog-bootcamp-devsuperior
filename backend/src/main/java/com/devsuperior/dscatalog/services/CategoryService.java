@@ -1,6 +1,5 @@
 package com.devsuperior.dscatalog.services;
 
-import java.util.List;
 import java.util.Optional;
 
 import javax.persistence.EntityNotFoundException;
