@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom';
 import './style.scss'
 
 const NavBar = () => {
@@ -6,26 +7,26 @@ const NavBar = () => {
     return (
         <nav className="row bg-primary main-nav">
             <div className="col-2">
-                <a href="link" className="nav-logo-text">
+                <Link to="/" className="nav-logo-text">
                     <h4>DsCatalog</h4>
-                </a>
+                </Link>
             </div>
             <div className="col-6 offset-2">
                 <ul className = "main-menu">
                     <li>
-                        <a href='link' className="active">
+                        <NavLink to='/' exact activeClassName="active">
                             HOME
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href='link'>
+                        <NavLink to='/catalog'exact activeClassName="active">
                             CATÁLOGO
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href='link'>
+                        <NavLink to='admim' exact activeClassName="active">
                             ADMIM
-                        </a>
+                        </NavLink>
                     </li>
                 </ul>
             </div>
