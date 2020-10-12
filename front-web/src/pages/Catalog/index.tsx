@@ -1,11 +1,25 @@
 import React from 'react'
+import ProductCard from './components/ProductCard'
+import './style.scss'
 
 const Catalog = () => {
     return (
-        <div>
-            <h1>
-                Catalog                
+        <div className='catalog-container'>
+            <h1 className='catalog-title'>
+                Caálogo de Produtos                 
             </h1>
+
+            <div className='catalog-product'>
+                    <ProductCard />
+                    <ProductCard />
+                    <ProductCard />
+                    <ProductCard />
+                    <ProductCard />
+                    <ProductCard />
+                    <ProductCard />
+                    <ProductCard />
+
+            </div>
         </div>
     );
 }
