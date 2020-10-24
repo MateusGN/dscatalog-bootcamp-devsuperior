@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReactComponent as ButtonImage } from '../../assets/images/Seta.svg'
+import { ReactComponent as ButtonImage } from 'core/assets/images/Seta.svg'
 import './style.scss'
 
 type Props = {
