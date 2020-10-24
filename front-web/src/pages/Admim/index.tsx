@@ -1,11 +1,10 @@
 import React from 'react'
+import NavBar from './components/NavBar'
 
 const Admim = () => {
     return (
         <div>
-            <h1>
-                Admim                
-            </h1>
+            <NavBar />
         </div>
     );
 }
