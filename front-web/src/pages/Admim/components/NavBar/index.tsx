@@ -7,17 +7,17 @@ const NavBar = () => {
         <nav className='admim-nav-container'>
             <ul>
                 <li>
-                    <NavLink to='/admim/produtos' exact className='admim-nav-item'>
+                    <NavLink to='/admim/products' exact className='admim-nav-item'>
                         Meus Produtos
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/admim/categorias' exact className='admim-nav-item'>
+                    <NavLink to='/admim/categories' exact className='admim-nav-item'>
                         Minhas Categorias
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/admim/usuarios' exact className='admim-nav-item'>
+                    <NavLink to='/admim/users' exact className='admim-nav-item'>
                         Meus Usuários
                     </NavLink>
                 </li>
